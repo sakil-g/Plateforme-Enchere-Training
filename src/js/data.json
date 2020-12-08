@@ -1,14 +1,1 @@
-[
-    {
-        "id": "article_526c3209e8694bd6dcc000d14ee97e57",
-        "titre": "test ",
-        "image": "ressources\/img\/uploads\/agro-foresterie-191431.jpg",
-        "Prixdulancement": "7",
-        "Duree": "51",
-        "Prixduclic": "0.5",
-        "AugmentationduPrix": "0.01",
-        "Augmentationduree": "30",
-        "etat": "actif",
-        "date_fin": 1607597876
-    }
-]
+[{"id":"article_526c3209e8694bd6dcc000d14ee97e57","titre":"test ","image":"ressources\/img\/uploads\/agro-foresterie-191431.jpg","Prixdulancement":"7","Duree":"72","Prixduclic":"0.5","AugmentationduPrix":"0.01","Augmentationduree":"30","etat":"actif","date_fin":1607684563}]
