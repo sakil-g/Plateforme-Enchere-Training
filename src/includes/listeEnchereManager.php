@@ -16,13 +16,15 @@ $json_array = json_decode(file_get_contents($data_file), true); ?>
                 <td class="align-middle text-center" scope="col"><?= $value['AugmentationduPrix'] ?> cts/clic</td>
                 <td class="align-middle text-center" scope="col"><?= $value['Augmentationduree'] ?></td>
                 <td class="align-middle text-center" scope="col">
-                <form method="POST" enctype="multipart/form-data" action="#<?= $value['id']?> ">
-                    <input name="indice" value="<?= $value['id'] ?>" style="display: none;">
-                    <input class="btn-sm btn-primary mb-2" type="submit" value="Activer" name="submit_activer">
-                    <input class="btn-sm btn-primary mb-2" type="submit" value="Désactiver" name="submit_desactiver">
-                    <input class="btn-sm btn-primary" type="submit" value="Modifier" name="">
+                    <form method="POST" enctype="multipart/form-data" action="#<?= $value['id']?> ">
+                        <input name="indice" value="<?= $value['id'] ?>" style="display: none;">
+                        <input class="btn-sm btn-primary mb-2" type="submit" value="Activer" name="submit_activer">
+                        <input class="btn-sm btn-primary mb-2" type="submit" value="Désactiver" name="submit_desactiver">
+                    </form>
+                    <form method="POST" enctype="multipart/form-data" action="modificateurenchere.php?id=<?=$value['id']?>">
+                        <input class="btn-sm btn-primary" type="submit" value="Modifier" name="" >
+                    </form>
                 </td>
-                </form>
         </tr>
    
     </thead>

@@ -1,1 +1,14 @@
-[{"id":"article_420fe6e0eb45bdfc264e2d5abadce186","titre":"test 2","image":"ressources\/img\/uploads\/SG HI TECH.jpg","Prixdulancement":1.05,"Duree":0,"Prixduclic":0.5,"AugmentationduPrix":0.01,"Augmentationduree":30,"etat":"actif","date_fin":1607406797},{"id":"article_6d318c0d192d860a4f789858b819ad45","titre":"yes","image":"ressources\/img\/uploads\/SG HI TECH.jpg","Prixdulancement":1.16,"Duree":48,"Prixduclic":0.5,"AugmentationduPrix":0.01,"Augmentationduree":30,"etat":"actif","date_fin":1607579775},{"id":"article_f1d847bab001ef07efa74b394259388d","titre":"yes","image":"ressources\/img\/uploads\/SG HI TECH.jpg","Prixdulancement":1,"Duree":48,"Prixduclic":0.5,"AugmentationduPrix":0.01,"Augmentationduree":30,"etat":"actif","date_fin":1607579593},{"id":"article_cb53f4816ec331790da17c78574bd923","titre":"test 3","image":"ressources\/img\/uploads\/agro-foresterie-191431.jpg","Prixdulancement":1.03,"Duree":48,"Prixduclic":0.5,"AugmentationduPrix":0.01,"Augmentationduree":30,"etat":"inactif","date_fin":1607579828},{"id":"article_0e9455b6072cd1595a388c94d51602ec","titre":"tes 5","image":"ressources\/img\/uploads\/agro-foresterie-191431.jpg","Prixdulancement":1.04,"Duree":48,"Prixduclic":0.5,"AugmentationduPrix":0.01,"Augmentationduree":61,"etat":"inactif","date_fin":1607579829},{"id":"article_40251d1c1f2d33aa0575d2a481264410","titre":"test","image":"ressources\/img\/uploads\/agro-foresterie-191431.jpg","Prixdulancement":1.03,"Duree":48,"Prixduclic":0.5,"AugmentationduPrix":0.01,"Augmentationduree":30,"etat":"actif","date_fin":1607583904}]
+[
+    {
+        "id": "article_526c3209e8694bd6dcc000d14ee97e57",
+        "titre": "test ",
+        "image": "ressources\/img\/uploads\/agro-foresterie-191431.jpg",
+        "Prixdulancement": "7",
+        "Duree": "51",
+        "Prixduclic": "0.5",
+        "AugmentationduPrix": "0.01",
+        "Augmentationduree": "30",
+        "etat": "actif",
+        "date_fin": 1607597876
+    }
+]
