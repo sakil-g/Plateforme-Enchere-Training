@@ -1,0 +1,18 @@
+code pour afficher un message lors ce qu'il n'y a aucun articles à afficher
+
+<?php 
+            $onstate = false; // déclarer la variable onstate pour rechercher un état actif ou inactif dans le tableau
+            foreach ($_SESSION['DUMMY_ARRAY'] as $etat => $actif ){ // rechercher dans le tableau l'état actif
+            if ($actif['etat'] == 'actif'){ // si l'état est actif aucune action n'est demander
+                $onstate = true; 
+            }  
+        
+            }
+            if($onstate == false) { // si l'état est false il est donc inactif     
+                echo '<div class="inactif">Aucun articles à afficher</div>'; // afficher le message aucun article à afficher dans la section listes des articles.
+            }
+        ?>
+
+
+
+   
